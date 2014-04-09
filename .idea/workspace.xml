@@ -65,9 +65,36 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/index.html">
+        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/aufgabe2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="72" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.6170886" vertical-offset="0" max-vertical-offset="632">
+            <state line="16" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.37974682" vertical-offset="0" max-vertical-offset="632">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cebit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/aufgabe2/Cebit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Webtechcon.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/aufgabe2/Webtechcon.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Conit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/aufgabe2/Conit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
@@ -88,6 +115,10 @@
         <option value="$PROJECT_DIR$/WAW_Project_JW/index.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/tabelle.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/Project/index.html" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/bilder/Cebit.html" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/Webtechcon.html" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/Conit.html" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/index.html" />
       </list>
     </option>
   </component>
@@ -124,8 +155,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -157,9 +186,41 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meilenstein 2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aufgabe2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WAW_Privat_JW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WAW_Project_JW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meilenstein 2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aufgabe1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,6 +241,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/aufgabe2" />
+      <recent name="$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/aufgabe1" />
+      <recent name="$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2" />
+      <recent name="$PROJECT_DIR$/WAW_Project_JW/Zwischenübung1" />
       <recent name="$PROJECT_DIR$/WAW_Project_JW/Project" />
     </key>
   </component>
@@ -416,15 +481,16 @@
       <workItem from="1395846836401" duration="2303000" />
       <workItem from="1396014428140" duration="49000" />
       <workItem from="1397057800373" duration="2396000" />
+      <workItem from="1397064105274" duration="1569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7632000" />
+    <option name="totallyTimeSpent" value="9201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -444,7 +510,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -465,39 +531,74 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/index.html">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/aufgabe1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="72" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/aufgabe1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/index.html">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/aufgabe1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="34" selection-start="631" selection-end="638" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="465" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/index.html">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/aufgabe1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="79" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="465" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/index.html">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/aufgabe1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="42" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="465" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/index.html">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/aufgabe1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="375" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/tabelle.html">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Zwischenübung1/tabelle.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="79" selection-start="151" selection-end="151" vertical-scroll-proportion="0.050632913" vertical-offset="28" max-vertical-offset="660" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/index.html">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/aufgabe2/Cebit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="72" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.6170886" vertical-offset="0" max-vertical-offset="632">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/aufgabe2/Webtechcon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/aufgabe2/Conit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/aufgabe1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/Project/Meilenstein 2/aufgabe2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.37974682" vertical-offset="0" max-vertical-offset="632">
           <folding />
         </state>
       </provider>
