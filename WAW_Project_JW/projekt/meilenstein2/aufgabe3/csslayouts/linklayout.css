@@ -1,0 +1,28 @@
+* {
+    font-weight: bold;
+    font-family: Arial Black;
+    background-color: rgb(153,217,234);
+}
+
+#ueberschrift {
+    font-size: 22px;
+}
+
+#beschreibung {
+    width: 30%;
+    font-size: 16px;
+    text-align: justify;
+
+}
+
+#logo {
+    float: right;
+    height: 30%;
+    width: 30%;
+}
+
+#bild {
+    height: 30%;
+    width: 30%;
+    margin-top: 80px;
+}
