@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Anmeldeformular für Messefahrten</title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="css/index.css">
+</head>
+
+<body>
+    <span id="anmeldung">Anmeldung</span>
+        <p id="anmeldungtext">Hier könnt ihr euch für eine Messer eurer Wahl anmelden:</p>
+
+<div id="formulardiv">
+    <form action = "http://martinakraus.net/hsmannheim.php">
+
+    <p>
+    <fieldset>
+        <legend>Personendaten</legend>
+        <label for="vorname" id="vornamelabel">Vorname</label>
+        <input type="text" id ="vorname" size = "30" name = "vorname"><p>
+
+        <label for="name" id="namelabel">Name</label>
+        <input type="text" id="name" size = "30" name = "name"><p>
+
+        <label for="email" id="emaillabel">E-Mail</label>
+        <input type="text" id = "email" size = "30" name = "email"><p>
+
+        <label for="matrikelnr" id="matrikelnrlabel">Matrikelnummer</label>
+        <input type="text" id="matrikelnr" size = "30" name="matrikelnr"><p>
+
+        <label for="handy" id ="handylabel">Hanynummer:</label>
+        <input type="text" id="handy" size = "30" name = "handy"><p>
+
+        Bitte wählen Sie ihren Studiengang aus<br>
+        <select name = "studiengang" size ="1">
+            <option value = "uib">UIB</option>
+            <option value = "imb">IMB</option>
+            <option value = "ib" selected = "selected">IB</option>
+        </select><p>
+
+        Bitte wählen Sie ihre gewünschte Messe aus:<br>
+
+        <input type = "radio" value ="cebit" checked="checked"/>CeBIT
+        <input type = "radio" value ="conit"/>ConIT
+        <input type = "radio" value ="webtechcon"/>WebTech Con<p>
+
+    </fieldset>
+    </p>
+
+    <input type ="submit" name ="abschicken" value = " Daten abschicken"/>
+
+    </form>
+</div>
+
+<div id="messediv">
+    <span id="messeueberschrift">Messeinformationen</span>
+    <p id="messetext">Bitte auf eine Messer eurer Wahl klicken um mehr Informationen zu erhalten:</p>
+    <a href="Cebit.html">CeBIT</a><br>
+    <a href="Webtechcon.html">WebTechCon</a><br>
+    <a href="Conhit.html">ConhIT</a><br>
+</div>
+</body>
+</html>

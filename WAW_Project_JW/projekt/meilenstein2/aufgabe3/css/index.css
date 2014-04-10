@@ -1,0 +1,48 @@
+* {
+    font-weight: bold;
+    font-family: Arial Black;
+}
+
+body {
+  background-color: rgb(153,217,234);
+}
+
+#anmeldung {
+    font-size: 20px;
+}
+
+#anmeldungtext {
+    font-size: 12px; /* font-height gibt es nicht */
+}
+
+#messeueberschrift {
+    font-size: 14px;
+}
+
+#messetext {
+    font-size: 12px;
+}
+
+label {
+    font-size: 12px;
+    z-index: 39;
+}
+
+a {
+    font-size: 16px;
+}
+
+#formulardiv {
+    width: 40%;
+}
+
+#messediv {
+    float: right;
+    position: fixed;
+    right: 50px;
+    top: 80px;
+}
+
+input {
+    vertical-align: middle;
+}

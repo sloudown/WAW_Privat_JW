@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Anmeldeformular für Messefahrten</title>
+</head>
+
+<body>
+<h3>Anmeldeformular für eine Messefahrt</h3>
+    Um sich für eine Messefahrt anzumelden füllen Sie bitte folgendes Formular aus:<p>
+
+    <form action = "http://martinakraus.net/hsmannheim.php">
+
+        <fieldset id="personedaten">
+            <legend>Personendaten</legend>
+            Vorname: <input type="text" size = "30" name = "vorname"><p>
+
+            Name: <input type="text" size = "30" name = "name"><p>
+
+            E-Mail: <input type="text" size = "30" name = "email"><p>
+
+            Matrikelnummer: <input type="text" size = "30" name = "matrikelnr"><p>
+
+            Handynummer: <input type="text" size = "30" name = "handy"><p>
+
+            Bitte wählen Sie ihren Studiengang aus:<br>
+            <select name = "studiengang" size ="1">
+                <option value = "uib">UIB</option>
+                <option value = "imb">IMB</option>
+                <option value = "ib" selected = "selected">IB</option>
+            </select><p>
+
+            Bitte wählen Sie ihre gewünschte Messe aus:<br>
+
+            <input type = "radio" value ="cebit" checked="checked"/>CeBIT
+            <input type = "radio" value ="conit"/>ConIT
+            <input type = "radio" value ="webtechcon"/>WebTech Con<p>
+
+        </fieldset><p>
+
+        <input type ="submit" name ="abschicken" value = " Daten abschicken"/><p>
+
+        <div id="messeinfos">
+            <h3>Messeinformationen</h3>
+            <a href="Cebit.html">CeBIT</a><br>
+            <a href="Webtechcon.html">WebTechCon</a><br>
+            <a href="Conhit.html">ConhIT</a><br>
+        </div>
+
+    </form>
+</body>
+</html>
