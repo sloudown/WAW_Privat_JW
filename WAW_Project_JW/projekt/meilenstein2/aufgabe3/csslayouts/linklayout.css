@@ -4,25 +4,36 @@
     background-color: rgb(153,217,234);
 }
 
-#ueberschrift {
-    font-size: 22px;
-}
-
 #beschreibung {
-    width: 30%;
     font-size: 16px;
     text-align: justify;
 
+}
+
+.mitte {
+    height: 50%;
+}
+
+#unserlogo {
+    float: right;
+    border-color: black;
+    width: 10%;
+}
+
+#ueberschrift {
+    text-align: center;
+    font-size: 22px;
 }
 
 #logo {
     float: right;
     height: 30%;
     width: 30%;
+    margin: 10px;
 }
 
 #bild {
     height: 30%;
     width: 30%;
-    margin-top: 80px;
+    margin-top: 10px;
 }
