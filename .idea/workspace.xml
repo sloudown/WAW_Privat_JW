@@ -63,7 +63,17 @@
     <favorites_list name="WAW_Privat_JW" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="64" selection-start="2503" selection-end="2503" vertical-scroll-proportion="0.39418417" vertical-offset="731" max-vertical-offset="1350">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -94,12 +104,14 @@
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/indexA3.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/Webtechcon.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe2/index.html" />
-        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/index.css" />
-        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/index.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/csslayouts/indexlayout.css" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/Conhit.html" />
-        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/Cebit.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/csslayouts/linklayout.css" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/Cebit.html" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/links.css" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/index.html" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/index.css" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/layout.css" />
       </list>
     </option>
   </component>
@@ -136,8 +148,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -200,7 +212,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="csslayouts" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -219,32 +231,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="meilenstein2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aufgabe2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WAW_Privat_JW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WAW_Project_JW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meilenstein2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aufgabe1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -267,6 +253,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -518,15 +505,16 @@
       <workItem from="1397135915675" duration="1837000" />
       <workItem from="1397150718529" duration="3746000" />
       <workItem from="1397402910277" duration="3886000" />
+      <workItem from="1397576617614" duration="5228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29085000" />
+    <option name="totallyTimeSpent" value="34313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -546,7 +534,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -582,7 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/csslayouts/linklayout.css">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/links.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <folding />
@@ -596,7 +584,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/csslayouts/linklayout.css">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/links.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="39" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="345">
           <folding />
@@ -631,11 +619,6 @@
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/zwischenübung1/tabelle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="79" selection-start="151" selection-end="151" vertical-scroll-proportion="0.050632913" vertical-offset="28" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe1/index.html">
@@ -675,30 +658,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="537" selection-end="537" vertical-scroll-proportion="0.42857143" vertical-offset="0" max-vertical-offset="1080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/csslayouts/indexlayout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="39" selection-start="106" selection-end="106" vertical-scroll-proportion="0.13761468" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/csslayouts/linklayout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="24" selection-start="250" selection-end="250" vertical-scroll-proportion="0.41284403" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/Cebit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+        <state line="11" column="31" selection-start="367" selection-end="367" vertical-scroll-proportion="0.26107594" vertical-offset="0" max-vertical-offset="632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/links.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="29" selection-start="56" selection-end="56" vertical-scroll-proportion="0.04573171" vertical-offset="0" max-vertical-offset="656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/zwischenübung1/tabelle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="100" selection-start="151" selection-end="151" vertical-scroll-proportion="0.088607594" vertical-offset="4" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="202" selection-end="202" vertical-scroll-proportion="0.32012194" vertical-offset="0" max-vertical-offset="656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="196" selection-end="196" vertical-scroll-proportion="0.2972561" vertical-offset="0" max-vertical-offset="656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="64" selection-start="2503" selection-end="2503" vertical-scroll-proportion="0.39418417" vertical-offset="731" max-vertical-offset="1350">
           <folding />
         </state>
       </provider>

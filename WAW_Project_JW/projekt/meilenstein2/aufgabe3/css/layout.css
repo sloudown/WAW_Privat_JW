@@ -1,0 +1,15 @@
+body {
+    padding: 10px;
+    background-color: rgb(153,217,234);
+}
+
+#kopfzeile {
+    text-align: center;
+}
+
+#mitte {
+    margin-top: 40px;
+    margin: 10px;
+    padding: 10px;
+    align-self: center;
+}
