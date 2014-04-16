@@ -1,15 +1,32 @@
+* {
+    font-weight: bold;
+    font-family: Arial Black;
+}
+
 body {
-    padding: 10px;
     background-color: rgb(153,217,234);
 }
 
 #kopfzeile {
+    background-color: cornflowerblue;
+    height: 80px;
     text-align: center;
 }
 
 #mitte {
-    margin-top: 40px;
-    margin: 10px;
-    padding: 10px;
+    background-color: khaki;
     align-self: center;
+    height: 600px;
+}
+
+#rechts {
+    background-color: hotpink;
+    float: right;
+    width: 250px;
+    height: 600px;
+}
+
+#unserlogo {
+    float: right;
+    height: 100%;
 }

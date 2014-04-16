@@ -1,38 +1,18 @@
-* {
-    font-weight: bold;
-    font-family: Arial Black;
-}
-
 #beschreibung {
     font-size: 16px;
-    text-align: justify;
-
-}
-
-.mitte {
-    height: 50%;
-}
-
-#unserlogo {
-    float: right;
-    border-color: black;
-    width: 10%;
 }
 
 #ueberschrift {
-    text-align: center;
     font-size: 22px;
 }
 
-#logo {
+#messelogo {
     float: right;
-    height: 30%;
-    width: 30%;
+    width: 15%;
     margin: 10px;
 }
 
-#bild {
-    height: 30%;
-    width: 30%;
+#messebild {
+    width: 20%;
     margin-top: 10px;
 }
