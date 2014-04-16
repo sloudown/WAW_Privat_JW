@@ -8,21 +8,17 @@ body {
 }
 
 #kopfzeile {
-    background-color: cornflowerblue;
     height: 80px;
     text-align: center;
 }
 
 #mitte {
-    background-color: khaki;
-    min-height: 600px;
     align-content: center;
 }
 
 #rechts {
-    background-color: hotpink;
     float: right;
-    width: 250px;
+    margin-left: 10px;
     height: 600px;
 }
 

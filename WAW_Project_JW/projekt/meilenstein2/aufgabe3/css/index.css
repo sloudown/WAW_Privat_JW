@@ -3,7 +3,7 @@
 }
 
 #anmeldungtext {
-    font-size: 12px; <!-- font-size oder line-height ? -->
+    font-size: 12px;
 }
 
 label {
@@ -15,6 +15,5 @@ input {
 }
 
 #formular {
-    width: 60%;
     float: left;
 }
