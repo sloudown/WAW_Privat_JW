@@ -6,21 +6,9 @@
     font-size: 12px; <!-- font-size oder line-height ? -->
 }
 
-#messeinformationen {
-    font-size: 14px;
-}
-
-#messetext {
-    font-size: 12px;
-}
-
 label {
     font-size: 12px;
 }
-
-a {
-     font-size: 16px;
- }
 
 input {
     font-size: 12px;

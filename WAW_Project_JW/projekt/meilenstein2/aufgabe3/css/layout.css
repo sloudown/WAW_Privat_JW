@@ -15,8 +15,8 @@ body {
 
 #mitte {
     background-color: khaki;
-    align-self: center;
-    height: 600px;
+    min-height: 600px;
+    align-content: center;
 }
 
 #rechts {
@@ -29,4 +29,16 @@ body {
 #unserlogo {
     float: right;
     height: 100%;
+}
+
+a {
+    font-size: 16px;
+}
+
+#messeinformationen {
+    font-size: 14px;
+}
+
+#messetext {
+    font-size: 12px;
 }

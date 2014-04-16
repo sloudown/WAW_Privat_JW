@@ -63,7 +63,17 @@
     <favorites_list name="WAW_Privat_JW" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="links.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/links.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="15" selection-start="158" selection-end="158" vertical-scroll-proportion="0.32012194" vertical-offset="0" max-vertical-offset="656">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -95,13 +105,13 @@
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe2/index.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/csslayouts/indexlayout.css" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/csslayouts/linklayout.css" />
-        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/index.css" />
-        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/links.css" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/index.html" />
-        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/layout.css" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/Cebit.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/Conhit.html" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/index.css" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/layout.css" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/Webtechcon.html" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/links.css" />
       </list>
     </option>
   </component>
@@ -224,8 +234,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -499,37 +509,38 @@
       <workItem from="1397588556448" duration="1083000" />
       <workItem from="1397589650218" duration="1520000" />
       <workItem from="1397625482751" duration="1941000" />
+      <workItem from="1397644713973" duration="755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38857000" />
+    <option name="totallyTimeSpent" value="39612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -665,51 +676,51 @@
         <state line="4" column="100" selection-start="151" selection-end="151" vertical-scroll-proportion="0.088607594" vertical-offset="4" max-vertical-offset="660" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/index.css">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/Cebit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="137" selection-end="137" vertical-scroll-proportion="0.18292683" vertical-offset="0" max-vertical-offset="656">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/links.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="12" selection-start="173" selection-end="173" vertical-scroll-proportion="0.3429878" vertical-offset="0" max-vertical-offset="656">
+        <state line="23" column="44" selection-start="893" selection-end="893" vertical-scroll-proportion="0.5298869" vertical-offset="17" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="17" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+        <state line="32" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.7027439" vertical-offset="19" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/Webtechcon.html">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="382" selection-end="382" vertical-scroll-proportion="0.2003231" vertical-offset="71" max-vertical-offset="810">
+        <state line="6" column="1" selection-start="114" selection-end="114" vertical-scroll-proportion="0.13719513" vertical-offset="0" max-vertical-offset="656">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/Conhit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="377" selection-end="377" vertical-scroll-proportion="0.2907916" vertical-offset="0" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/Cebit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="559" selection-end="592" vertical-scroll-proportion="0.4361874" vertical-offset="0" max-vertical-offset="619">
+        <state line="25" column="51" selection-start="567" selection-end="859" vertical-scroll-proportion="0.38449112" vertical-offset="137" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="538" selection-end="538" vertical-scroll-proportion="0.43037975" vertical-offset="103" max-vertical-offset="1350">
+        <state line="31" column="62" selection-start="561" selection-end="849" vertical-scroll-proportion="0.5727848" vertical-offset="103" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/Webtechcon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="40" selection-start="868" selection-end="868" vertical-scroll-proportion="0.63004845" vertical-offset="0" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/css/links.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="15" selection-start="158" selection-end="158" vertical-scroll-proportion="0.32012194" vertical-offset="0" max-vertical-offset="656">
           <folding />
         </state>
       </provider>
