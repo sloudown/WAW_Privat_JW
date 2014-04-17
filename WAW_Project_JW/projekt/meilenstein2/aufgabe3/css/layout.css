@@ -8,16 +8,18 @@ body {
 }
 
 #kopfzeile {
+    padding: 3px;
     height: 80px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
     text-align: center;
-}
 
-#mitte {
-    align-content: center;
 }
 
 #rechts {
     float: right;
+    margin-top: 15px;
     margin-left: 10px;
     height: 600px;
 }
