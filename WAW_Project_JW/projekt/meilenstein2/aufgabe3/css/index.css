@@ -4,6 +4,7 @@
 
 #anmeldungtext {
     font-size: 12px;
+    text-align: center;
 }
 
 label {
@@ -15,5 +16,10 @@ input {
 }
 
 #formular {
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#abschicken {
+    width: 100%;
 }
