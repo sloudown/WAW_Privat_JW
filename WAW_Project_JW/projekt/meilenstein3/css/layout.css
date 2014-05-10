@@ -3,10 +3,15 @@
     font-family: Arial Black;
 }
 
-body {
-    width: 100%;
+html, body {
     height: 100%;
+    width: 100%;
     background-color: rgb(153,217,234);
+    margin: 0 auto;
+}
+
+#ueberschrift {
+    font-size: 22px;
 }
 
 #kopfzeile {
@@ -16,16 +21,24 @@ body {
     border-bottom-width: 2px;
     border-bottom-color: black;
     text-align: center;
-
 }
 
 #links {
     float: left;
     padding: 15px;
-    height: 600px;
+    height: 100%;
+    width: 20%;
     border-right-style: solid;
     border-right-width: 2px;
     border-right-color: black;
+}
+
+
+#mitte {
+    padding-top: 15px;
+    float: right;
+    height: 100%;
+    width: 77%;
 }
 
 #unserlogo {
@@ -41,6 +54,6 @@ a {
     font-size: 14px;
 }
 
-#beschreibungtext {
+#messetext {
     font-size: 12px;
 }
