@@ -1,20 +1,43 @@
-function anzeigen() {
-    for (var i = 0; i < arguments.length; i++){
-        var elem = document.getElementById(arguments[i]);
-        elem.style.display='block';
+/**
+ * Diese Funktion zeigt alle Elemente der uebergebenen Klasse an.
+ * Dafuer werden alle Elemente der Klasse gesucht, mit einer for Schleife durchlaufen
+ * und auf visible gestellt.
+ *
+ * @param klassenname damit wird angegeben welche Klasse angezeigt werden soll
+ */
+function anzeigen(klassenname) {
+    var klasse = document.getElementsByClassName(klassenname);
+    for (var i = 0; i < klasse.length; i++){
+        klasse[i].style.visibility='visible';
     }
 }
 
-function verstecken() {
-    for (var i = 0; i < arguments.length; i++){
-        var elem = document.getElementById(arguments[i]);
-        elem.style.display='none';
+/**
+ * Diese Funktion versteckt alle Elemente der uebergebenen Klasse.
+ * Dafuer werden alle Elemente der Klasse gesucht, mit einer for Schleife durchlaufen
+ * und auf hidden gestellt.
+ *
+ * @param klassenname damit wird angegeben welche Klasse versteckt werden soll
+ */
+function verstecken(klassenname) {
+    var klasse = document.getElementsByClassName(klassenname);
+    for (var i = 0; i < klasse.length; i++){
+        klasse[i].style.visibility='hidden';
     }
 }
 
-function tauschen (elem1, elem2){
-    var element1 = document.getElementById(elem1);
-    element1.style.display='none'
-    var element2 = document.getElementById(elem2);
-    element2.style.display='block'
+/**
+ * Diese Funktion faerbt das geklickte Element in die Farbe blue um.
+ * Zuvor werden alle Element der gleichen Gruppe, wie das geklickte Element,
+ * mit Hilfe einer for Schleife, wieder auf die Standardfarbe gefaerbt.
+ *
+ * @param id die id, des elements, auf welches geklickt wird
+ */
+function klick(id) {
+    var name = document.getElementById(id).className;
+    var klasse = document.getElementsByClassName(name);
+    for (var i = 0; i < klasse.length; i++){
+        klasse[i].style.backgroundColor = 'rgb(153,217,234)';
+    }
+    document.getElementById(id).style.backgroundColor='blue';
 }
