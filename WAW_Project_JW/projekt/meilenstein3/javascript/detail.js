@@ -41,3 +41,56 @@ function klick(id) {
     }
     document.getElementById(id).style.backgroundColor='blue';
 }
+
+var kostenCebit = {
+    name: "CeBit",
+    kosten: "15"
+};
+
+var kostenConhit = {
+    name: "ConhIT",
+    kosten: "50"
+};
+
+var kostenWebtechcon = {
+    name: "WebTechCon",
+    kosten: "300"
+};
+
+var teilnehmercebit1 = {
+    name: "Ent",
+    vorname: "Thilo",
+    studiengang:  "IB",
+    email: "t.ent@gmail.de"
+};
+
+var teilnehmercebit2 = {
+    name: "Kraus",
+    vorname: "Martina",
+    studiengang:  "IB",
+    email: "m.kraus@hs-mannheim.de"
+};
+
+var teilnehmercebit3 = {
+    name: "Smits",
+    vorname: "Thomas",
+    studiengang:  "UIB",
+    email: "t.smits@hs-mannheim.de"
+};
+
+var teilnehmercebit4 = {
+    name: "Groeschel",
+    vorname: "Michael",
+    studiengang:  "UIB",
+    email: "m.groeschel@hs-mannheim.de"
+};
+
+
+/**
+ * Funktion um die Tabelle, mit Hilfe von JSON Objekten, mit Details zu fuellen.
+ */
+function tabelleFuellen(){
+
+}
+
+
