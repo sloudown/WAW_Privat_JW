@@ -65,7 +65,26 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="0" selection-start="1816" selection-end="1816" vertical-scroll-proportion="-20.958334" vertical-offset="292" max-vertical-offset="990">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="0" selection-start="2412" selection-end="2412" vertical-scroll-proportion="0.62038404" vertical-offset="795" max-vertical-offset="2505">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -110,9 +129,10 @@
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/index.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/links.css" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/Webtechcon.html" />
-        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/layout.css" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/zusatz/test.html" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/test.html" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/detail.css" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js" />
       </list>
@@ -186,28 +206,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="meilenstein3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WAW_Privat_JW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WAW_Project_JW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meilenstein3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zusatz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,14 +417,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32765958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890624" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3609375" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32765958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -463,7 +461,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="20" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -471,6 +469,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="47" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/detail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="63" selection-start="1256" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="262" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="84" column="38" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="1530">
@@ -600,17 +619,12 @@
         <state line="24" column="1" selection-start="260" selection-end="260" vertical-scroll-proportion="0.5487805" vertical-offset="0" max-vertical-offset="656" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/Cebit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="670" selection-end="679" vertical-scroll-proportion="0.53311795" vertical-offset="0" max-vertical-offset="765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/Conhit.html">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/conhit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="20" selection-start="654" selection-end="654" vertical-scroll-proportion="0.40872374" vertical-offset="77" max-vertical-offset="885" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/Webtechcon.html">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/webtechcon.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="20" selection-start="663" selection-end="663" vertical-scroll-proportion="0.5390625" vertical-offset="0" max-vertical-offset="855" />
       </provider>
@@ -635,35 +649,37 @@
         <state line="13" column="20" selection-start="207" selection-end="207" vertical-scroll-proportion="0.28803545" vertical-offset="0" max-vertical-offset="960" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/zusatz/datesForFairs.html">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/cebit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/zusatz/datesForContributors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="27" selection-start="441" selection-end="446" vertical-scroll-proportion="0.39050537" vertical-offset="0" max-vertical-offset="1275">
+        <state line="20" column="20" selection-start="590" selection-end="590" vertical-scroll-proportion="0.45941806" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="63" selection-start="1256" selection-end="1265" vertical-scroll-proportion="0.6232772" vertical-offset="238" max-vertical-offset="915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="47" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.5982275" vertical-offset="210" max-vertical-offset="1575">
+        <state line="23" column="52" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.5390625" vertical-offset="0" max-vertical-offset="640">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/detail.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="72" selection-end="72" vertical-scroll-proportion="0.13293944" vertical-offset="0" max-vertical-offset="780">
+        <state line="52" column="17" selection-start="901" selection-end="901" vertical-scroll-proportion="0.62038404" vertical-offset="360" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1816" selection-end="1816" vertical-scroll-proportion="-20.958334" vertical-offset="292" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="0" selection-start="2412" selection-end="2412" vertical-scroll-proportion="0.62038404" vertical-offset="795" max-vertical-offset="2505">
           <folding />
         </state>
       </provider>

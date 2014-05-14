@@ -1,7 +1,8 @@
 #details {
+    background-color: wheat;
     margin: 0 auto;
     width: 624px;
-    height: 400px;
+    height: 600px;
 }
 
 .geklickt {
@@ -41,6 +42,28 @@
     padding: 5px;
     cursor: pointer;
     text-align: center;
+}
+
+#tabelle {
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    margin: 0 auto;
+    width: 624px;
+}
+
+#tabelle td {
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#details p {
+    height: 25px;
 }
 
 

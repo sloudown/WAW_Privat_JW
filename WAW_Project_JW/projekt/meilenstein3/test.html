@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Mitarbeiter-Tabelle</title>
+    <script language="javascript">
+
+        function start() {
+            node = document.getElementById("hierTabelle");
+            node.appendChild(createTable());
+        }
+
+        function createTable() {
+
+            var mitarbeiter = new Array ("Daniel", "Anastasia", "Marvin", "Dominik", "Günther", "Gabriela");
+            var myTable     = document.createElement("table");
+            var mytablebody = document.createElement("tbody");
+
+            for (var i = 0; mitarbeiter.length > i; i++) {
+                currentRow = document.createElement("tr");
+                currentCell = document.createElement("td");
+                currentText = document.createTextNode(i+1 + ". " + mitarbeiter[i]);
+                currentCell.appendChild(currentText);
+                currentRow.appendChild(currentCell);
+                mytablebody.appendChild(currentRow);
+            }
+            myTable.appendChild(mytablebody);
+            myTable.setAttribute("border",1);
+            return myTable;
+        }
+
+    </script>
+</head>
+<body onload="javascript:start()">
+<div id="hierTabelle"></div>
+</body>
+</html>

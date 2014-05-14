@@ -16,7 +16,7 @@
           href="css/detail.css"/>
 </head>
 
-<body>
+<body onload="klick('kostentab'); kostenTabelleFuellen()">
 
 <div id="kopfzeile">
 
@@ -29,9 +29,9 @@
 <div id="links">
     <div id="messeinformationen">Messeinformationen</div>
     <p id="messetext">Bitte auf eine Messe eurer Wahl klicken<br>um mehr Informationen zu erhalten:</p>
-    <a href="Cebit.html">CeBIT</a><br/>
-    <a href="Webtechcon.html">WebTechCon</a><br/>
-    <a href="Conhit.html">ConhIT</a><br/>
+    <a href="cebit.html">CeBIT</a><br/>
+    <a href="webtechcon.html">WebTechCon</a><br/>
+    <a href="conhit.html">ConhIT</a><br/>
     <p>
     <a href="index.html">Anmeldung</a><br/>
     <a href="detail.html">Details zur Anmeldung</a>
@@ -44,10 +44,15 @@
              onclick="verstecken('tab_unten'); klick('kostentab')">Kosten der Messe</div>
         <div id = "teilnehmertab" class = "tab_oben"
              onclick="anzeigen('tab_unten'); klick('teilnehmertab')">Teilnehmer</div>
+
         <div class="style"></div>
+
         <div id = "cebittab" class = "tab_unten" onclick="klick('cebittab')">CeBit</div>
         <div id = "conhittab" class = "tab_unten" onclick="klick('conhittab')">ConhIT</div>
         <div id = "webtechcontab" class = "tab_unten" onclick="klick('webtechcontab')">WebTechCon</div>
+        <p>
+
+        </p>
     </div>
 
 </div>
