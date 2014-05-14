@@ -69,7 +69,7 @@
       <file leaf-file-name="detail.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="38" selection-start="2246" selection-end="2246" vertical-scroll-proportion="1.4874446" vertical-offset="253" max-vertical-offset="1530">
+            <state line="63" column="2" selection-start="1829" selection-end="1829" vertical-scroll-proportion="0.06942393" vertical-offset="898" max-vertical-offset="1575">
               <folding />
             </state>
           </provider>
@@ -161,6 +161,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -257,7 +258,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -265,7 +265,7 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="preferences.general" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -326,6 +326,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6b28ef8c-6372-4daa-85a8-349d513fc258" name="Default" comment="" />
@@ -388,7 +405,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -441,6 +458,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="38" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="38" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="43" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="915">
@@ -593,9 +624,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="207" selection-end="207" vertical-scroll-proportion="0.28803545" vertical-offset="0" max-vertical-offset="960">
-          <folding />
-        </state>
+        <state line="13" column="20" selection-start="207" selection-end="207" vertical-scroll-proportion="0.28803545" vertical-offset="0" max-vertical-offset="960" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html">
@@ -607,21 +636,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/zusatz/datesForFairs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="555" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/zusatz/datesForContributors.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.20673813" vertical-offset="135" max-vertical-offset="1275">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.20673813" vertical-offset="135" max-vertical-offset="1275" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="38" selection-start="2246" selection-end="2246" vertical-scroll-proportion="1.4874446" vertical-offset="253" max-vertical-offset="1530">
+        <state line="63" column="2" selection-start="1829" selection-end="1829" vertical-scroll-proportion="0.06942393" vertical-offset="898" max-vertical-offset="1575">
           <folding />
         </state>
       </provider>

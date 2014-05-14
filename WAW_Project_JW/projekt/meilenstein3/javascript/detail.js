@@ -42,6 +42,17 @@ function klick(id) {
     document.getElementById(id).style.backgroundColor='blue';
 }
 
+/**
+ * Funktion um die Tabelle, mit Hilfe von JSON Objekten, mit Details zu fuellen.
+ */
+function tabelleFuellen(){
+
+}
+
+/**
+ * Die JSON Objekte um die Tabelle zu fuellen
+ */
+
 var kostenCebit = {
     name: "CeBit",
     kosten: "15"
@@ -84,13 +95,5 @@ var teilnehmercebit4 = {
     studiengang:  "UIB",
     email: "m.groeschel@hs-mannheim.de"
 };
-
-
-/**
- * Funktion um die Tabelle, mit Hilfe von JSON Objekten, mit Details zu fuellen.
- */
-function tabelleFuellen(){
-
-}
 
 
