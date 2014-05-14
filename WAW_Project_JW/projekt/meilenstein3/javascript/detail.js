@@ -37,9 +37,9 @@ function klick(id) {
     var name = document.getElementById(id).className;
     var klasse = document.getElementsByClassName(name);
     for (var i = 0; i < klasse.length; i++){
-        klasse[i].style.backgroundColor = 'rgb(153,217,234)';
+        klasse[i].classList.remove("geklickt");
     }
-    document.getElementById(id).style.backgroundColor='blue';
+    document.getElementById(id).classList.add("geklickt");
 }
 
 /**
