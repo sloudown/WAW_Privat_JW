@@ -1,14 +1,12 @@
 /**
- * Diese Funktion zeigt alle Elemente der uebergebenen Klasse an.
- * Dafuer werden alle Elemente der Klasse gesucht, mit einer for Schleife durchlaufen
- * und auf visible gestellt.
+ * Diese Funktion zeigt das element der uebergebenen id an.
+ * Dafuer wird das element gesucht und auf visible gestellt.
  *
- * @param klassenname damit wird angegeben welche Klasse angezeigt werden soll
  */
-function anzeigen(klassenname) {
-    var klasse = document.getElementsByClassName(klassenname);
-    for (var i = 0; i < klasse.length; i++){
-        klasse[i].style.visibility='visible';
+function anzeigen() {
+    for (var i = 0; i < arguments.length; i++){
+        var element = document.getElementById(arguments[i]);
+        element.style.display='block';
     }
 }
 
@@ -17,12 +15,11 @@ function anzeigen(klassenname) {
  * Dafuer werden alle Elemente der Klasse gesucht, mit einer for Schleife durchlaufen
  * und auf hidden gestellt.
  *
- * @param klassenname damit wird angegeben welche Klasse versteckt werden soll
  */
-function verstecken(klassenname) {
-    var klasse = document.getElementsByClassName(klassenname);
-    for (var i = 0; i < klasse.length; i++){
-        klasse[i].style.visibility='hidden';
+function verstecken() {
+    for (var i = 0; i < arguments.length; i++){
+        var element = document.getElementById(arguments[i]);
+        element.style.visibility='none';
     }
 }
 
@@ -43,58 +40,86 @@ function klick(id) {
 }
 
 /**
+ * Diese Funktion haengt ein JSON Objekt an eine beliebige Tabelle
+ *
+ * @param tabelleId die id der tabelle in welcher das JSON objekt angefuegt wird
+ * @param jsonobjekt das objekt welches angehaengt wird
+ */
+function  jsonObjektEinfuegen(tabelleId, jsonobjekt) {
+    var tabelle = document.getElementById(tabelleId);
+    //eine neues rowTag erstellen und mit dem uebergebenen JSON Objekt fuellen
+    // rowTag erstellen
+    var rowTag = document.createElement('tr');
+    for (i in jsonobjekt){
+        var cellTag = document.createElement('td');
+        var textNode = document.createTextNode(jsonobjekt[i]); //warum steht in der HTML Datei undefined?
+        cellTag.appendChild(textNode);
+        rowTag.appendChild(cellTag);
+    }
+    tabelle.appendChild(rowTag);
+}
+
+/**
  * Funktion um die Tabelle,fuer die Kosten der einzelnen Messen,
  * mit Hilfe von JSON Objekten, mit Details zu fuellen.
  */
-function kostenTabelleFuellen(){
-    /**
-     * Die JSON Objekte der Kosten.
-     */
+function kostenTabelleErstellen(){
 
-    var header = [
-        {ueberschrift: "Messe"},
-        {ueberschrift: "Selbstkosten"}
-    ];
-
-    var kostenCebit = {
-        name: "CeBit",
-        kosten: "15"
-    };
-
-    var kostenConhit = {
-        name: "ConhIT",
-        kosten: "50"
-    };
-
-    var kostenWebtechcon = {
-        name: "WebTechCon",
-        kosten: "300"
-    };
-
+    //Tabelle erstellen
     // das div tag mit der id details holen
     var detailsDiv = document.getElementById('details');
     // das table tag erstellen
     var tableTag = document.createElement('table');
     // dem tableTag die id tabelle geben
-    tableTag.setAttribute('id', 'tabelle');
-    // rowTag erstellen
-    var rowTag = document.createElement('tr');
-
-    //rowTag mit einer foreach schleife fuellen
-    for (i in header){
-        var cellTag = document.createElement('td');
-        var textNode = document.createTextNode(i.ueberschrift); //warum steht in der HTML Datei undefined?
-        cellTag.appendChild(textNode);
-        rowTag.appendChild(cellTag);
-    }
-    tableTag.appendChild(rowTag);
+    tableTag.setAttribute('id', 'kostentabelle');
+    //die tabelle an das div details anfuegen
     detailsDiv.appendChild(tableTag);
+
+    //JSON Objekt fuer den tableHeader erstellen
+    var header = ['Messe', 'Selbstkosten'];
+    jsonObjektEinfuegen(tableTag.id,header);
+
+    // JSON Objekte der Kosten erstellen und in die tabelle einfuegen
+
+    var kostenCebit = {
+        name: "CeBit",
+        kosten: "15"
+    };
+    jsonObjektEinfuegen(tableTag.id,kostenCebit);
+
+    var kostenConhit = {
+        name: "ConhIT",
+        kosten: "50"
+    };
+    jsonObjektEinfuegen(tableTag.id,kostenConhit);
+
+    var kostenWebtechcon = {
+        name: "WebTechCon",
+        kosten: "300"
+    };
+    jsonObjektEinfuegen(tableTag.id,kostenWebtechcon);
 
 }
 
-function teilnehmerTabelleFuellen(){
+function cebitTabelleErstellen(){
+
+    //Tabelle erstellen
+    // das div tag mit der id details holen
+    var detailsDiv = document.getElementById('details');
+    // das table tag erstellen
+    var tableTag = document.createElement('table');
+    // dem tableTag die id tabelle geben
+    tableTag.setAttribute('id', 'cebittabelle');
+    tableTag.setAttribute('class', 'teilnehmertabelle');
+    //die tabelle an das div details anfuegen
+    detailsDiv.appendChild(tableTag);
+
+    //JSON Objekt fuer den tableHeader erstellen
+    var header = ["Name","Vorname","Studiengang","E-Mail"];
+    jsonObjektEinfuegen(tableTag.id,header);
+
     /**
-     * Die JSON Objekte der einzelnen Teilnehmer
+     * Die JSON Objekte der einzelnen Teilnehmer fuer die Cebit erstellen und in die tabelle einfuegen
      */
 
     var teilnehmercebit1 = {
@@ -103,6 +128,7 @@ function teilnehmerTabelleFuellen(){
         studiengang: "IB",
         email: "t.ent@gmail.de"
     };
+    jsonObjektEinfuegen(tableTag.id,teilnehmercebit1);
 
     var teilnehmercebit2 = {
         name: "Kraus",
@@ -110,6 +136,7 @@ function teilnehmerTabelleFuellen(){
         studiengang: "IB",
         email: "m.kraus@hs-mannheim.de"
     };
+    jsonObjektEinfuegen(tableTag.id,teilnehmercebit2);
 
     var teilnehmercebit3 = {
         name: "Smits",
@@ -117,6 +144,7 @@ function teilnehmerTabelleFuellen(){
         studiengang: "UIB",
         email: "t.smits@hs-mannheim.de"
     };
+    jsonObjektEinfuegen(teilnehmercebit3)
 
     var teilnehmercebit4 = {
         name: "Groeschel",
@@ -124,13 +152,33 @@ function teilnehmerTabelleFuellen(){
         studiengang: "UIB",
         email: "m.groeschel@hs-mannheim.de"
     };
+    jsonObjektEinfuegen(teilnehmercebit4)
+}
 
+function conhitTabelleErstellen (){
+    //Tabelle erstellen
+    // das div tag mit der id details holen
+    var detailsDiv = document.getElementById('details');
+    // das table tag erstellen
+    var tableTag = document.createElement('table');
+    // dem tableTag die id tabelle geben
+    tableTag.setAttribute('id', 'conhittabelle');
+    tableTag.setAttribute('class', 'teilnehmertabelle');
+    //die tabelle an das div details anfuegen
+    detailsDiv.appendChild(tableTag);
+
+    //JSON Objekt fuer den tableHeader erstellen
+    var header = ["Name","Vorname","Studiengang","E-Mail"];
+    jsonObjektEinfuegen(tableTag.id,header);
+
+    // die teilnehmer der conhit erstellen und einfuegen
     var teilnehmerconhit1 = {
         name: "Schmuecker",
         vorname: "Paul",
         studiengang: "IMB",
         email: "p.schmuecker@hs-mannheim.de"
     };
+    jsonObjektEinfuegen(tableTag.id,teilnehmerconhit1);
 
     var teilnehmerconhit2 = {
         name: "Felsenheimer",
@@ -138,13 +186,33 @@ function teilnehmerTabelleFuellen(){
         studiengang: "IB",
         email: "j.felsenheimer@diebestebaendderwelt.de"
     };
+    jsonObjektEinfuegen(tableTag.id,teilnehmerconhit2);
+}
 
+function webtechconTabelleErstellen() {
+    //Tabelle erstellen
+    // das div tag mit der id details holen
+    var detailsDiv = document.getElementById('details');
+    // das table tag erstellen
+    var tableTag = document.createElement('table');
+    // dem tableTag die id tabelle geben
+    tableTag.setAttribute('id', 'webtechcontabelle');
+    tableTag.setAttribute('class', 'teilnehmertabelle');
+    //die tabelle an das div details anfuegen
+    detailsDiv.appendChild(tableTag);
+
+    //JSON Objekt fuer den tableHeader erstellen
+    var header = ["Name","Vorname","Studiengang","E-Mail"];
+    jsonObjektEinfuegen(tableTag.id,header);
+
+    // die teilnehmer der webtechcon erstellen und einfuegen
     var teilnehmerwebtechcon1 = {
         name: "Spies",
         vorname: "Marcell",
         studiengang: "IB",
         email: "m.spies@gmail.de"
     };
+    jsonObjektEinfuegen(tableTag.id,teilnehmerwebtechcon1);
 
     var teilnehmerwebtechcon2 = {
         name: "Hoppe",
@@ -152,6 +220,7 @@ function teilnehmerTabelleFuellen(){
         studiengang: "UIB",
         email: "j.hoppe@gmx.de"
     };
+    jsonObjektEinfuegen(tableTag.id,teilnehmerwebtechcon2);
 
     var teilnehmerwebtechcon3 = {
         name: "Hofmeister",
@@ -159,4 +228,5 @@ function teilnehmerTabelleFuellen(){
         studiengang: "UIB",
         email: "cessor@gmail.de"
     };
+    jsonObjektEinfuegen(tableTag.id,teilnehmerwebtechcon3);
 }

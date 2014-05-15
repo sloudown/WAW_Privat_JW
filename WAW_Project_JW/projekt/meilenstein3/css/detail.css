@@ -30,7 +30,7 @@
     cursor: pointer;
     text-align: center;
     width: 196px;
-    visibility: hidden;
+    display: none;
 }
 
 .tab_oben {
@@ -44,16 +44,17 @@
     text-align: center;
 }
 
-#tabelle {
+.teilnehmertabelle {
     border-collapse: collapse;
     border-width: 1px;
     border-style: solid;
     border-color: #000000;
     margin: 0 auto;
     width: 624px;
+    display: none;
 }
 
-#tabelle td {
+.teilnehmertabelle td {
     border-collapse: collapse;
     border-width: 1px;
     border-style: solid;
@@ -64,6 +65,25 @@
 
 #details p {
     height: 25px;
+}
+
+#kostentabelle {
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    margin: 0 auto;
+    width: 624px;
+    display: none;
+}
+
+#kostentabelle td {
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    margin: 0 auto;
+    text-align: center;
 }
 
 

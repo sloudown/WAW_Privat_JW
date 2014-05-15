@@ -16,7 +16,11 @@
           href="css/detail.css"/>
 </head>
 
-<body onload="klick('kostentab'); kostenTabelleFuellen()">
+<body onload="klick('kostentab');
+              kostenTabelleErstellen();
+              webtechconTabelleErstellen();
+              conhitTabelleErstellen();
+              cebitTabelleErstellen()">
 
 <div id="kopfzeile">
 
@@ -41,15 +45,28 @@
 
     <div id= "details">
         <div id = "kostentab" class = "tab_oben"
-             onclick="verstecken('tab_unten'); klick('kostentab')">Kosten der Messe</div>
+             onclick="verstecken('cebittab', 'conhittab', 'webtechcontab', 'teilnehmertabelle');
+                      klick('kostentab');
+                      anzeigen('kostentabelle')">Kosten der Messe</div>
         <div id = "teilnehmertab" class = "tab_oben"
-             onclick="anzeigen('tab_unten'); klick('teilnehmertab')">Teilnehmer</div>
+             onclick="anzeigen('cebittab', 'conhittab', 'webtechcontab');
+                      klick('teilnehmertab');
+                      verstecken('kostentabelle')">Teilnehmer</div>
 
         <div class="style"></div>
 
-        <div id = "cebittab" class = "tab_unten" onclick="klick('cebittab')">CeBit</div>
-        <div id = "conhittab" class = "tab_unten" onclick="klick('conhittab')">ConhIT</div>
-        <div id = "webtechcontab" class = "tab_unten" onclick="klick('webtechcontab')">WebTechCon</div>
+        <div id = "cebittab" class = "tab_unten"
+             onclick="klick('cebittab');
+                      anzeigen('cebittabelle');
+                      verstecken('webtechcontabelle', 'conhittabelle')">CeBit</div>
+        <div id = "conhittab" class = "tab_unten"
+             onclick="klick('conhittab');
+                      anzeigen('conhittabelle');
+                      verstecken('webtechcontabelle', 'cebittabelle')">ConhIT</div>
+        <div id = "webtechcontab" class = "tab_unten"
+             onclick="klick('webtechcontab');
+                      anzeigen('webtechcontabelle');
+                      verstecken('conhittabelle', 'cebittabelle')">WebTechCon</div>
         <p>
 
         </p>
