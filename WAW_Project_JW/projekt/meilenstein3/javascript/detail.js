@@ -19,7 +19,7 @@ function anzeigen() {
 function verstecken() {
     for (var i = 0; i < arguments.length; i++){
         var element = document.getElementById(arguments[i]);
-        element.style.visibility='none';
+        element.style.display='none';
     }
 }
 
@@ -72,6 +72,7 @@ function kostenTabelleErstellen(){
     var tableTag = document.createElement('table');
     // dem tableTag die id tabelle geben
     tableTag.setAttribute('id', 'kostentabelle');
+    tableTag.setAttribute('class', 'tabelle');
     //die tabelle an das div details anfuegen
     detailsDiv.appendChild(tableTag);
 
@@ -110,7 +111,7 @@ function cebitTabelleErstellen(){
     var tableTag = document.createElement('table');
     // dem tableTag die id tabelle geben
     tableTag.setAttribute('id', 'cebittabelle');
-    tableTag.setAttribute('class', 'teilnehmertabelle');
+    tableTag.setAttribute('class', 'tabelle');
     //die tabelle an das div details anfuegen
     detailsDiv.appendChild(tableTag);
 
@@ -163,7 +164,7 @@ function conhitTabelleErstellen (){
     var tableTag = document.createElement('table');
     // dem tableTag die id tabelle geben
     tableTag.setAttribute('id', 'conhittabelle');
-    tableTag.setAttribute('class', 'teilnehmertabelle');
+    tableTag.setAttribute('class', 'tabelle');
     //die tabelle an das div details anfuegen
     detailsDiv.appendChild(tableTag);
 
@@ -197,7 +198,7 @@ function webtechconTabelleErstellen() {
     var tableTag = document.createElement('table');
     // dem tableTag die id tabelle geben
     tableTag.setAttribute('id', 'webtechcontabelle');
-    tableTag.setAttribute('class', 'teilnehmertabelle');
+    tableTag.setAttribute('class', 'tabelle');
     //die tabelle an das div details anfuegen
     detailsDiv.appendChild(tableTag);
 

@@ -44,45 +44,19 @@
     text-align: center;
 }
 
-.teilnehmertabelle {
-    border-collapse: collapse;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #000000;
-    margin: 0 auto;
-    width: 624px;
-    display: none;
-}
-
-.teilnehmertabelle td {
-    border-collapse: collapse;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #000000;
-    margin: 0 auto;
-    text-align: center;
-}
-
 #details p {
     height: 25px;
 }
 
-#kostentabelle {
+.tabelle {
     border-collapse: collapse;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #000000;
-    margin: 0 auto;
-    width: 624px;
     display: none;
 }
 
-#kostentabelle td {
-    border-collapse: collapse;
+.tabelle td {
     border-width: 1px;
     border-style: solid;
     border-color: #000000;
-    margin: 0 auto;
     text-align: center;
 }
 

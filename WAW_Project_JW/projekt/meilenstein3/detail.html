@@ -45,9 +45,10 @@
 
     <div id= "details">
         <div id = "kostentab" class = "tab_oben"
-             onclick="verstecken('cebittab', 'conhittab', 'webtechcontab', 'teilnehmertabelle');
-                      klick('kostentab');
-                      anzeigen('kostentabelle')">Kosten der Messe</div>
+             onclick="klick('kostentab');
+                      anzeigen('kostentabelle');
+                      verstecken('cebittab','conhittab','webtechcontab',
+                                 'conhittabelle','cebittabelle','webtechcontabelle')">Kosten der Messe</div>
         <div id = "teilnehmertab" class = "tab_oben"
              onclick="anzeigen('cebittab', 'conhittab', 'webtechcontab');
                       klick('teilnehmertab');
@@ -67,9 +68,7 @@
              onclick="klick('webtechcontab');
                       anzeigen('webtechcontabelle');
                       verstecken('conhittabelle', 'cebittabelle')">WebTechCon</div>
-        <p>
-
-        </p>
+        <p></p>
     </div>
 
 </div>

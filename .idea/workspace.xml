@@ -69,7 +69,7 @@
       <file leaf-file-name="detail.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="38" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+            <state line="192" column="38" selection-start="5971" selection-end="5971" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="1080">
               <folding>
                 <element signature="n#!!doc;n#anzeigen#0" expanded="false" />
                 <element signature="n#!!doc;n#verstecken#0" expanded="false" />
@@ -78,7 +78,6 @@
                 <element signature="n#!!doc;n#jsonObjektEinfuegen#0" expanded="false" />
                 <element signature="n#!!block;n#jsonObjektEinfuegen#0" expanded="false" />
                 <element signature="n#!!doc;n#kostenTabelleErstellen#0" expanded="false" />
-                <element signature="n#!!block;n#kostenTabelleErstellen#0" expanded="false" />
                 <element signature="n#!!block;n#cebitTabelleErstellen#0" expanded="false" />
                 <element signature="n#!!block;n#conhitTabelleErstellen#0" expanded="false" />
                 <element signature="n#!!block;n#webtechconTabelleErstellen#0" expanded="false" />
@@ -87,19 +86,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/detail.css">
+      <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="18" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1425">
+            <state line="70" column="15" selection-start="2642" selection-end="2642" vertical-scroll-proportion="-25.958334" vertical-offset="427" max-vertical-offset="1230">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html">
+      <file leaf-file-name="detail.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/detail.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="68" selection-start="2087" selection-end="2087" vertical-scroll-proportion="0.94180703" vertical-offset="285" max-vertical-offset="1245">
+            <state line="52" column="18" selection-start="836" selection-end="836" vertical-scroll-proportion="0.6646972" vertical-offset="330" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -153,8 +152,8 @@
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/layout.css" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/zusatz/test.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/test.html" />
-        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/detail.css" />
       </list>
     </option>
@@ -437,7 +436,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="7" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -508,7 +507,6 @@
             <element signature="n#!!doc;n#jsonObjektEinfuegen#0" expanded="false" />
             <element signature="n#!!block;n#jsonObjektEinfuegen#0" expanded="false" />
             <element signature="n#!!doc;n#kostenTabelleErstellen#0" expanded="false" />
-            <element signature="n#!!block;n#kostenTabelleErstellen#0" expanded="false" />
             <element signature="n#!!block;n#cebitTabelleErstellen#0" expanded="false" />
             <element signature="n#!!block;n#conhitTabelleErstellen#0" expanded="false" />
             <element signature="n#!!block;n#webtechconTabelleErstellen#0" expanded="false" />
@@ -527,7 +525,6 @@
             <element signature="n#!!doc;n#jsonObjektEinfuegen#0" expanded="false" />
             <element signature="n#!!block;n#jsonObjektEinfuegen#0" expanded="false" />
             <element signature="n#!!doc;n#kostenTabelleErstellen#0" expanded="false" />
-            <element signature="n#!!block;n#kostenTabelleErstellen#0" expanded="false" />
             <element signature="n#!!block;n#cebitTabelleErstellen#0" expanded="false" />
             <element signature="n#!!block;n#conhitTabelleErstellen#0" expanded="false" />
             <element signature="n#!!block;n#webtechconTabelleErstellen#0" expanded="false" />
@@ -560,7 +557,6 @@
             <element signature="n#!!doc;n#jsonObjektEinfuegen#0" expanded="false" />
             <element signature="n#!!block;n#jsonObjektEinfuegen#0" expanded="false" />
             <element signature="n#!!doc;n#kostenTabelleErstellen#0" expanded="false" />
-            <element signature="n#!!block;n#kostenTabelleErstellen#0" expanded="false" />
             <element signature="n#!!block;n#cebitTabelleErstellen#0" expanded="false" />
             <element signature="n#!!block;n#conhitTabelleErstellen#0" expanded="false" />
             <element signature="n#!!block;n#webtechconTabelleErstellen#0" expanded="false" />
@@ -579,7 +575,6 @@
             <element signature="n#!!doc;n#jsonObjektEinfuegen#0" expanded="false" />
             <element signature="n#!!block;n#jsonObjektEinfuegen#0" expanded="false" />
             <element signature="n#!!doc;n#kostenTabelleErstellen#0" expanded="false" />
-            <element signature="n#!!block;n#kostenTabelleErstellen#0" expanded="false" />
             <element signature="n#!!block;n#cebitTabelleErstellen#0" expanded="false" />
             <element signature="n#!!block;n#conhitTabelleErstellen#0" expanded="false" />
             <element signature="n#!!block;n#webtechconTabelleErstellen#0" expanded="false" />
@@ -744,7 +739,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="38" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+        <state line="192" column="38" selection-start="5971" selection-end="5971" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <folding>
             <element signature="n#!!doc;n#anzeigen#0" expanded="false" />
             <element signature="n#!!doc;n#verstecken#0" expanded="false" />
@@ -753,7 +748,6 @@
             <element signature="n#!!doc;n#jsonObjektEinfuegen#0" expanded="false" />
             <element signature="n#!!block;n#jsonObjektEinfuegen#0" expanded="false" />
             <element signature="n#!!doc;n#kostenTabelleErstellen#0" expanded="false" />
-            <element signature="n#!!block;n#kostenTabelleErstellen#0" expanded="false" />
             <element signature="n#!!block;n#cebitTabelleErstellen#0" expanded="false" />
             <element signature="n#!!block;n#conhitTabelleErstellen#0" expanded="false" />
             <element signature="n#!!block;n#webtechconTabelleErstellen#0" expanded="false" />
@@ -761,16 +755,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/detail.css">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="18" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1425">
+        <state line="70" column="15" selection-start="2642" selection-end="2642" vertical-scroll-proportion="-25.958334" vertical-offset="427" max-vertical-offset="1230">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/detail.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="68" selection-start="2087" selection-end="2087" vertical-scroll-proportion="0.94180703" vertical-offset="285" max-vertical-offset="1245">
+        <state line="52" column="18" selection-start="836" selection-end="836" vertical-scroll-proportion="0.6646972" vertical-offset="330" max-vertical-offset="1035">
           <folding />
         </state>
       </provider>
