@@ -6,7 +6,7 @@
 function anzeigen() {
     for (var i = 0; i < arguments.length; i++){
         var element = document.getElementById(arguments[i]);
-        element.style.display='block';
+        element.style.display='table';
     }
 }
 
@@ -50,9 +50,10 @@ function  jsonObjektEinfuegen(tabelleId, jsonobjekt) {
     //eine neues rowTag erstellen und mit dem uebergebenen JSON Objekt fuellen
     // rowTag erstellen
     var rowTag = document.createElement('tr');
-    for (i in jsonobjekt){
+    for (var i in jsonobjekt){
         var cellTag = document.createElement('td');
-        var textNode = document.createTextNode(jsonobjekt[i]); //warum steht in der HTML Datei undefined?
+        var textNode;
+        textNode = document.createTextNode(jsonobjekt[i]);
         cellTag.appendChild(textNode);
         rowTag.appendChild(cellTag);
     }
@@ -61,27 +62,44 @@ function  jsonObjektEinfuegen(tabelleId, jsonobjekt) {
 
 /**
  * Funktion um die Tabelle,fuer die Kosten der einzelnen Messen,
- * mit Hilfe von JSON Objekten, mit Details zu fuellen.
+ * mit Hilfe von JSON Objekten, zu erstellen.
  */
-function kostenTabelleErstellen(){
+function kostenTabelleErstellen() {
+    kostenHeadErstellen();
+    kostenTabelleFuellen();
+}
 
+
+function kostenHeadErstellen() {
     //Tabelle erstellen
-    // den platzhalter fuer die tabelle in der HTML holen
-    var meineTabelle = document.getElementById('meinetabelle');
+    // das div mit der id mitte holen
+    var mitteDiv = document.getElementById('mitte');
     // das table tag erstellen
     var tableTag = document.createElement('table');
     // dem tableTag die id tabelle geben
     tableTag.setAttribute('id', 'kostentabelle');
     tableTag.setAttribute('class', 'tabelle');
     //die tabelle an das div details anfuegen
-    meineTabelle.appendChild(tableTag);
+    mitteDiv.appendChild(tableTag);
 
-    //JSON Objekt fuer den tableHeader erstellen
+    //JSON Objekt fuer den kostenHead erstellen
     var header = ['Messe', 'Selbstkosten'];
-    jsonObjektEinfuegen(tableTag.id,header);
+
+    //durch das JSON Objekt iterieren und ein headTag erstellen, fuellen und anhaengen
+    for (var i in header){
+        var headTag = document.createElement('th');
+        var textNode;
+        textNode = document.createTextNode(header[i]);
+        headTag.appendChild(textNode);
+        tableTag.appendChild(headTag);
+    }
+}
+
+function kostenTabelleFuellen(){
+    //die zuvor erstellte tabelle aus dem html dokument holen
+    var tabelle = document.getElementById('tabelle');
 
     // JSON Objekte der Kosten erstellen und in die tabelle einfuegen
-
     var kostenCebit = {
         name: "CeBit",
         kosten: "15"
@@ -105,15 +123,15 @@ function kostenTabelleErstellen(){
 function cebitTabelleErstellen(){
 
     //Tabelle erstellen
-    // das div tag mit der id details holen
-    var meineTabelle = document.getElementById('meinetabelle');
+    // das div tag mit der id mitte holen
+    var mitteDiv = document.getElementById('mitte');
     // das table tag erstellen
     var tableTag = document.createElement('table');
     // dem tableTag die id tabelle geben
     tableTag.setAttribute('id', 'cebittabelle');
     tableTag.setAttribute('class', 'tabelle');
     //die tabelle an das div details anfuegen
-    meineTabelle.appendChild(tableTag);
+    mitteDiv.appendChild(tableTag);
 
     //JSON Objekt fuer den tableHeader erstellen
     var header = ["Name","Vorname","Studiengang","E-Mail"];
@@ -145,7 +163,7 @@ function cebitTabelleErstellen(){
         studiengang: "UIB",
         email: "t.smits@hs-mannheim.de"
     };
-    jsonObjektEinfuegen(teilnehmercebit3)
+    jsonObjektEinfuegen(tableTag.id,teilnehmercebit3);
 
     var teilnehmercebit4 = {
         name: "Groeschel",
@@ -153,20 +171,20 @@ function cebitTabelleErstellen(){
         studiengang: "UIB",
         email: "m.groeschel@hs-mannheim.de"
     };
-    jsonObjektEinfuegen(teilnehmercebit4)
+    jsonObjektEinfuegen(tableTag.id,teilnehmercebit4);
 }
 
 function conhitTabelleErstellen (){
     //Tabelle erstellen
-    // das div tag mit der id details holen
-    var meineTabelleDiv = document.getElementById('meinetabelle');
+    // das div tag mit der id mitte holen
+    var mitteDiv = document.getElementById('mitte');
     // das table tag erstellen
     var tableTag = document.createElement('table');
     // dem tableTag die id tabelle geben
     tableTag.setAttribute('id', 'conhittabelle');
     tableTag.setAttribute('class', 'tabelle');
     //die tabelle an das div details anfuegen
-    meineTabelleDiv.appendChild(tableTag);
+    mitteDiv.appendChild(tableTag);
 
     //JSON Objekt fuer den tableHeader erstellen
     var header = ["Name","Vorname","Studiengang","E-Mail"];
@@ -192,15 +210,15 @@ function conhitTabelleErstellen (){
 
 function webtechconTabelleErstellen() {
     //Tabelle erstellen
-    // das div tag mit der id details holen
-    var meineTabelleDiv = document.getElementById('meinetabelle');
+    // das div tag mit der id mitte holen
+    var mitteDiv = document.getElementById('mitte');
     // das table tag erstellen
     var tableTag = document.createElement('table');
     // dem tableTag die id tabelle geben
     tableTag.setAttribute('id', 'webtechcontabelle');
     tableTag.setAttribute('class', 'tabelle');
     //die tabelle an das div details anfuegen
-    meineTabelleDiv.appendChild(tableTag);
+    mitteDiv.appendChild(tableTag);
 
     //JSON Objekt fuer den tableHeader erstellen
     var header = ["Name","Vorname","Studiengang","E-Mail"];
