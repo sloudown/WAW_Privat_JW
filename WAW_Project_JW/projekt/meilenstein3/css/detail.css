@@ -1,8 +1,7 @@
 #details {
+    width: 624px;
     background-color: wheat;
     margin: 0 auto;
-    width: 624px;
-    height: 600px;
 }
 
 .geklickt {
@@ -62,6 +61,7 @@
 }
 
 #meinetabelle {
+    margin: 0 auto;
     background-color: yellow;
 }
 
