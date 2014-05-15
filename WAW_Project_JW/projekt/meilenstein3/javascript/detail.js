@@ -64,19 +64,27 @@ function  jsonObjektEinfuegen(tabelleId, jsonobjekt) {
  * Funktion um die Tabelle,fuer die Kosten der einzelnen Messen,
  * mit Hilfe von JSON Objekten, zu erstellen.
  */
-function kostenTabelleErstellen() {
-    kostenHeadErstellen();
-    kostenTabelleFuellen();
+
+function tabellenErstellen() {
+
+    kostenTabelleErstellen();
+
+    cebitTabelleErstellen();
+
+    conhitTabelleErstellen();
+
+    webtechconTabelleErstellen();
+
+
 }
 
-
-function kostenHeadErstellen() {
+function kostenTabelleErstellen() {
     //Tabelle erstellen
     // das div mit der id mitte holen
     var mitteDiv = document.getElementById('mitte');
     // das table tag erstellen
     var tableTag = document.createElement('table');
-    // dem tableTag die id tabelle geben
+    // dem tableTag die id tabelle zuordnen
     tableTag.setAttribute('id', 'kostentabelle');
     tableTag.setAttribute('class', 'tabelle');
     //die tabelle an das div details anfuegen
@@ -93,11 +101,6 @@ function kostenHeadErstellen() {
         headTag.appendChild(textNode);
         tableTag.appendChild(headTag);
     }
-}
-
-function kostenTabelleFuellen(){
-    //die zuvor erstellte tabelle aus dem html dokument holen
-    var tabelle = document.getElementById('tabelle');
 
     // JSON Objekte der Kosten erstellen und in die tabelle einfuegen
     var kostenCebit = {
@@ -117,7 +120,6 @@ function kostenTabelleFuellen(){
         kosten: "300"
     };
     jsonObjektEinfuegen(tableTag.id,kostenWebtechcon);
-
 }
 
 function cebitTabelleErstellen(){
@@ -135,7 +137,14 @@ function cebitTabelleErstellen(){
 
     //JSON Objekt fuer den tableHeader erstellen
     var header = ["Name","Vorname","Studiengang","E-Mail"];
-    jsonObjektEinfuegen(tableTag.id,header);
+    //durch das JSON Objekt iterieren und ein headTag erstellen, fuellen und anhaengen
+    for (var i in header){
+        var headTag = document.createElement('th');
+        var textNode;
+        textNode = document.createTextNode(header[i]);
+        headTag.appendChild(textNode);
+        tableTag.appendChild(headTag);
+    }
 
     /**
      * Die JSON Objekte der einzelnen Teilnehmer fuer die Cebit erstellen und in die tabelle einfuegen
@@ -188,7 +197,14 @@ function conhitTabelleErstellen (){
 
     //JSON Objekt fuer den tableHeader erstellen
     var header = ["Name","Vorname","Studiengang","E-Mail"];
-    jsonObjektEinfuegen(tableTag.id,header);
+    //durch das JSON Objekt iterieren und ein headTag erstellen, fuellen und anhaengen
+    for (var i in header){
+        var headTag = document.createElement('th');
+        var textNode;
+        textNode = document.createTextNode(header[i]);
+        headTag.appendChild(textNode);
+        tableTag.appendChild(headTag);
+    }
 
     // die teilnehmer der conhit erstellen und einfuegen
     var teilnehmerconhit1 = {
@@ -222,7 +238,14 @@ function webtechconTabelleErstellen() {
 
     //JSON Objekt fuer den tableHeader erstellen
     var header = ["Name","Vorname","Studiengang","E-Mail"];
-    jsonObjektEinfuegen(tableTag.id,header);
+    //durch das JSON Objekt iterieren und ein headTag erstellen, fuellen und anhaengen
+    for (var i in header){
+        var headTag = document.createElement('th');
+        var textNode;
+        textNode = document.createTextNode(header[i]);
+        headTag.appendChild(textNode);
+        tableTag.appendChild(headTag);
+    }
 
     // die teilnehmer der webtechcon erstellen und einfuegen
     var teilnehmerwebtechcon1 = {
