@@ -49,6 +49,7 @@
 }
 
 .tabelle {
+    text-align: center;
     border-collapse: collapse;
     display: none;
 }
@@ -57,7 +58,11 @@
     border-width: 1px;
     border-style: solid;
     border-color: #000000;
-    text-align: center;
+    padding: 10px;
+}
+
+#meinetabelle {
+    background-color: yellow;
 }
 
 

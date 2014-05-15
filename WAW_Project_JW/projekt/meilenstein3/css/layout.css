@@ -26,8 +26,8 @@ html, body {
 #links {
     float: left;
     padding: 15px;
-    height: 100%;
     width: 20%;
+    height: 100%;
     border-right-style: solid;
     border-right-width: 2px;
     border-right-color: black;
@@ -35,10 +35,10 @@ html, body {
 
 
 #mitte {
-    padding-top: 15px;
     float: right;
-    height: 100%;
-    width: 77%;
+    width: 76%;
+    background-color: green;
+    padding-top: 15px;
 }
 
 #unserlogo {
