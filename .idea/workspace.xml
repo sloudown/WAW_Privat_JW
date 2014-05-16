@@ -69,7 +69,7 @@
       <file leaf-file-name="detail.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="39" selection-start="620" selection-end="620" vertical-scroll-proportion="0.46875" vertical-offset="0" max-vertical-offset="1185">
+            <state line="20" column="39" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1185">
               <folding />
             </state>
           </provider>
@@ -78,18 +78,8 @@
       <file leaf-file-name="detail.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="34" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="795">
-              <folding>
-                <element signature="n#!!block;n#verstecken#0" expanded="false" />
-                <element signature="n#!!block;n#klick#0" expanded="false" />
-                <element signature="n#!!block;n#jsonObjektEinfuegen#0" expanded="false" />
-                <element signature="n#!!doc;n#tabellenErstellen#0" expanded="false" />
-                <element signature="n#!!block;n#tabellenErstellen#0" expanded="false" />
-                <element signature="n#!!block;n#kostenTabelleErstellen#0" expanded="false" />
-                <element signature="n#!!block;n#cebitTabelleErstellen#0" expanded="false" />
-                <element signature="n#!!block;n#conhitTabelleErstellen#0" expanded="false" />
-                <element signature="n#!!block;n#webtechconTabelleErstellen#0" expanded="false" />
-              </folding>
+            <state line="80" column="34" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="4185">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,7 +87,7 @@
       <file leaf-file-name="detail.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/detail.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="1" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="1080">
+            <state line="44" column="1" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
@@ -150,16 +140,15 @@
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/zusatz/test.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/test.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/index.html" />
-        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/layout.css" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/detail.css" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/layout.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="774" />
@@ -192,6 +181,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -288,7 +278,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -436,13 +425,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32765958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35625" sideWeight="0.50070924" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35625" sideWeight="0.4992908" order="2" side_tool="false" content_ui="combo" />
@@ -461,6 +449,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -489,11 +478,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="598" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="960">
+        <state line="20" column="39" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1185">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="34" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/detail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="1" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="598" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="960" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
@@ -709,7 +717,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="15" selection-start="597" selection-end="597" vertical-scroll-proportion="0.5760709" vertical-offset="180" max-vertical-offset="945">
+        <state line="35" column="22" selection-start="511" selection-end="511" vertical-scroll-proportion="0.77548003" vertical-offset="0" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
@@ -717,30 +725,20 @@
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="34" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="795">
-          <folding>
-            <element signature="n#!!block;n#verstecken#0" expanded="false" />
-            <element signature="n#!!block;n#klick#0" expanded="false" />
-            <element signature="n#!!block;n#jsonObjektEinfuegen#0" expanded="false" />
-            <element signature="n#!!doc;n#tabellenErstellen#0" expanded="false" />
-            <element signature="n#!!block;n#tabellenErstellen#0" expanded="false" />
-            <element signature="n#!!block;n#kostenTabelleErstellen#0" expanded="false" />
-            <element signature="n#!!block;n#cebitTabelleErstellen#0" expanded="false" />
-            <element signature="n#!!block;n#conhitTabelleErstellen#0" expanded="false" />
-            <element signature="n#!!block;n#webtechconTabelleErstellen#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/detail.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="1" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="1080">
+        <state line="44" column="1" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="39" selection-start="620" selection-end="620" vertical-scroll-proportion="0.46875" vertical-offset="0" max-vertical-offset="1185">
+        <state line="20" column="39" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1185">
           <folding />
         </state>
       </provider>
