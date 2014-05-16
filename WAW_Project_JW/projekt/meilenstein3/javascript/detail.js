@@ -1,6 +1,5 @@
 /**
  * Diese Funktion zeigt das element der uebergebenen id an.
- * Dafuer wird das element gesucht und auf visible gestellt.
  *
  */
 function anzeigen() {
@@ -12,8 +11,6 @@ function anzeigen() {
 
 /**
  * Diese Funktion versteckt alle Elemente der uebergebenen Klasse.
- * Dafuer werden alle Elemente der Klasse gesucht, mit einer for Schleife durchlaufen
- * und auf hidden gestellt.
  *
  */
 function verstecken() {
@@ -40,7 +37,7 @@ function klick(id) {
 }
 
 /**
- * Diese Funktion haengt ein JSON Objekt an eine beliebige Tabelle
+ * Diese Funktion haengt ein JSON Objekt an eine beliebige Tabelle an.
  *
  * @param tabelleId die id der tabelle in welcher das JSON objekt angefuegt wird
  * @param jsonobjekt das objekt welches angehaengt wird
@@ -61,7 +58,7 @@ function  jsonObjektEinfuegen(tabelleId, jsonobjekt) {
 }
 
 /**
- * Funktion um die Tabelle,fuer die Kosten der einzelnen Messen,
+ * Funktion um die Tabellen zu erstellen
  * mit Hilfe von JSON Objekten, zu erstellen.
  */
 
@@ -77,7 +74,9 @@ function tabellenErstellen() {
 
 
 }
-
+/**
+ * Eine Funktion welche die Kosten Tabelle erstellt und dann mit JSON Objekten fuellt.
+ */
 function kostenTabelleErstellen() {
     //Tabelle erstellen
     // das div mit der id mitte holen
@@ -122,6 +121,9 @@ function kostenTabelleErstellen() {
     jsonObjektEinfuegen(tableTag.id,kostenWebtechcon);
 }
 
+/**
+ * Eine Funktion welche die Tabelle fuer die Teilnehmer der CeBit erstellt und dann mit JSON Objekten fuellt.
+ */
 function cebitTabelleErstellen(){
 
     //Tabelle erstellen
@@ -183,6 +185,9 @@ function cebitTabelleErstellen(){
     jsonObjektEinfuegen(tableTag.id,teilnehmercebit4);
 }
 
+/**
+ * Eine Funktion welche die Tabelle fuer die Teilnehmer der ConhIT erstellt und dann mit JSON Objekten fuellt.
+ */
 function conhitTabelleErstellen (){
     //Tabelle erstellen
     // das div tag mit der id mitte holen
@@ -224,6 +229,9 @@ function conhitTabelleErstellen (){
     jsonObjektEinfuegen(tableTag.id,teilnehmerconhit2);
 }
 
+/**
+ * Eine Funktion welche die Tabelle fuer die Teilnehmer der WebTechCon erstellt und dann mit JSON Objekten fuellt.
+ */
 function webtechconTabelleErstellen() {
     //Tabelle erstellen
     // das div tag mit der id mitte holen

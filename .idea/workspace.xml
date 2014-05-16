@@ -66,28 +66,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="detail.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="39" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1185">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="34" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="4185">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/detail.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="1" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="1080">
+            <state line="75" column="52" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.4140625" vertical-offset="860" max-vertical-offset="1515">
               <folding />
             </state>
           </provider>
@@ -139,11 +121,13 @@
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/Webtechcon.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/zusatz/test.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/test.html" />
-        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/index.html" />
-        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/detail.css" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/layout.css" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/cebit.html" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/conhit.html" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/index.html" />
       </list>
     </option>
   </component>
@@ -181,7 +165,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -275,9 +258,36 @@
               <option name="myItemId" value="projekt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meilenstein2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aufgabe3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WAW_Privat_JW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WAW_Project_JW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projekt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meilenstein2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -487,6 +497,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="34" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="4185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/detail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="1" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="39" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="34" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4185">
           <folding />
         </state>
@@ -670,21 +701,6 @@
         <state line="19" column="17" selection-start="784" selection-end="784" vertical-scroll-proportion="0.46042004" vertical-offset="0" max-vertical-offset="619" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/links.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="1" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="1" selection-start="260" selection-end="260" vertical-scroll-proportion="0.5487805" vertical-offset="0" max-vertical-offset="656" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/conhit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="20" selection-start="654" selection-end="654" vertical-scroll-proportion="0.40872374" vertical-offset="77" max-vertical-offset="885" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/webtechcon.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="20" selection-start="663" selection-end="663" vertical-scroll-proportion="0.5390625" vertical-offset="0" max-vertical-offset="855" />
@@ -695,50 +711,77 @@
         <state line="0" column="0" selection-start="0" selection-end="1273" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="653" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.712098" vertical-offset="465" max-vertical-offset="1380" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/cebit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="590" selection-end="590" vertical-scroll-proportion="0.45941806" vertical-offset="0" max-vertical-offset="765" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="52" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.5390625" vertical-offset="0" max-vertical-offset="640" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0703125" vertical-offset="0" max-vertical-offset="1425" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="22" selection-start="511" selection-end="511" vertical-scroll-proportion="0.77548003" vertical-offset="0" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="34" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="795">
+        <state line="252" column="50" selection-start="7984" selection-end="7984" vertical-scroll-proportion="3.930723" vertical-offset="1170" max-vertical-offset="4305">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/detail.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="1" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="1080">
+        <state line="44" column="1" selection-start="692" selection-end="692" vertical-scroll-proportion="0.9748892" vertical-offset="0" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="22" selection-start="511" selection-end="511" vertical-scroll-proportion="0.46824226" vertical-offset="208" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/links.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="1" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/cebit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="72" selection-start="197" selection-end="197" vertical-scroll-proportion="0.09375" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/conhit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="72" selection-start="197" selection-end="197" vertical-scroll-proportion="0.09375" vertical-offset="0" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="39" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1185">
+        <state line="5" column="72" selection-start="130" selection-end="198" vertical-scroll-proportion="0.1171875" vertical-offset="0" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="1" selection-start="260" selection-end="260" vertical-scroll-proportion="0.5317578" vertical-offset="0" max-vertical-offset="677">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein2/aufgabe3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7265625" vertical-offset="465" max-vertical-offset="1380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="52" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.4140625" vertical-offset="860" max-vertical-offset="1515">
           <folding />
         </state>
       </provider>

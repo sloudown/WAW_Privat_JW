@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <meta charset="UTF-8" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Anmeldeformular für Messefahrten</title>
     <script type="text/javascript"
             src="javascript/detail.js">
@@ -73,11 +73,17 @@
                 </td>
             </tr>
             <tr>
-                <td><label for="radio" id="radiolabel">Messe</label></td>
+                <td><label for="name" id="messelabel">Messe</label></td>
                 <td>
-                    <input type = "radio" name="messe" value ="CeBIT" id="radio" checked="checked"/>CeBIT<br>
-                    <input type = "radio" name="messe" value ="ConhIT"/>ConhIT<br>
-                    <input type = "radio" name="messe" value ="WebTechCon"/>WebTechCon
+                    <label>
+                        <input type = "radio" name="messe" value ="CeBIT" id="messe" checked="checked"/>
+                    </label>CeBIT<br>
+                    <label>
+                        <input type="radio" name="messe" value="ConhIT"/>
+                    </label>ConhIT<br>
+                    <label>
+                        <input type="radio" name="messe" value="WebTechCon"/>
+                    </label>WebTechCon
                 </td>
             </tr>
             <tr>
