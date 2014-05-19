@@ -46,7 +46,6 @@
 
 .tabelle td {
     padding: 10px;
-    height: 50px;
     border-color: #000000;
     border-width: 1px;
     border-style: solid;
@@ -55,7 +54,6 @@
 .tabelle th {
     color: blue;
     padding: 10px;
-    height: 50px;
     border-color: #000000;
     border-width: 1px;
     border-style: solid;
