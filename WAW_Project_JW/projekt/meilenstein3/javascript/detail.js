@@ -10,7 +10,7 @@ function anzeigen() {
 }
 
 /**
- * Diese Funktion versteckt alle Elemente der uebergebenen Klasse.
+ * Diese Funktion versteckt alle Elemente mit der uebergebenen ID.
  *
  */
 function verstecken() {

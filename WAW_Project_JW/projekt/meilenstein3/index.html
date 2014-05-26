@@ -5,9 +5,12 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Anmeldeformular für Messefahrten</title>
-    <script type="text/javascript"
-            src="javascript/detail.js">
-    </script>
+
+    <script type="text/javascript" src="javascript/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="javascript/jquery.validate.js"></script>
+    <script type="text/javascript" src="javascript/additional-methods.js"></script>
+    <script type="text/javascript" src="javascript/index.js"></script>
+
     <link rel="stylesheet"
           type="text/css"
           href="css/layout.css"/>
@@ -40,8 +43,8 @@
 <div id="mitte">
     <p id="anmeldungtext">Hier könnt ihr euch für eine Messe eurer Wahl anmelden:</p>
 
-    <form action = "http://martinakraus.net/hsmannheim.php">
-        <table id="formular">
+    <form id="formular" action = "http://martinakraus.net/hsmannheim.php">
+        <table id="formulartabelle">
             <tr>
                 <td><label for="vorname" id="vornamelabel">Vorname</label></td>
                 <td><input type="text" id ="vorname" size = "30" name = "vorname"></td>
@@ -73,7 +76,7 @@
                 </td>
             </tr>
             <tr>
-                <td><label for="name" id="messelabel">Messe</label></td>
+                <td><label for="messe" id="messelabel">Messe</label></td>
                 <td>
                     <label>
                         <input type = "radio" name="messe" value ="CeBIT" id="messe" checked="checked"/>
