@@ -66,19 +66,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="48" selection-start="2491" selection-end="2496" vertical-scroll-proportion="-18.125" vertical-offset="540" max-vertical-offset="1560">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/layout.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="14" selection-start="385" selection-end="388" vertical-scroll-proportion="0.2688331" vertical-offset="208" max-vertical-offset="885">
+            <state line="43" column="103" selection-start="1373" selection-end="1373" vertical-scroll-proportion="-0.0078125" vertical-offset="650" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -87,7 +78,7 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="223" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
+            <state line="49" column="0" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="1500">
               <folding />
             </state>
           </provider>
@@ -144,10 +135,10 @@
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/detail.css" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/detail.js" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/index.css" />
-        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/index.html" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/additional-methods.js" />
-        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/index.js" />
         <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/layout.css" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/index.html" />
+        <option value="$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/index.js" />
       </list>
     </option>
   </component>
@@ -712,37 +703,37 @@
         <state line="341" column="56" selection-start="11308" selection-end="11308" vertical-scroll-proportion="0.16716868" vertical-offset="5004" max-vertical-offset="9345" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="14" selection-start="385" selection-end="388" vertical-scroll-proportion="0.2688331" vertical-offset="208" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/jquery.validate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="958" column="28" selection-start="28199" selection-end="28204" vertical-scroll-proportion="15.728915" vertical-offset="3791" max-vertical-offset="18420">
+        <state line="958" column="28" selection-start="28199" selection-end="28204" vertical-scroll-proportion="21.438253" vertical-offset="0" max-vertical-offset="18420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/jquery-1.11.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154530">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.5361446" vertical-offset="1020" max-vertical-offset="154530">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/javascript/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="223" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
+        <state line="49" column="0" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="1500">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="48" selection-start="2491" selection-end="2496" vertical-scroll-proportion="-18.125" vertical-offset="540" max-vertical-offset="1560">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WAW_Project_JW/projekt/meilenstein3/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="14" selection-start="385" selection-end="388" vertical-scroll-proportion="0.2688331" vertical-offset="208" max-vertical-offset="885">
+        <state line="43" column="103" selection-start="1373" selection-end="1373" vertical-scroll-proportion="-0.0078125" vertical-offset="650" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>

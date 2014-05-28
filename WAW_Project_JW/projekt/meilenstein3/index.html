@@ -7,8 +7,6 @@
     <title>Anmeldeformular für Messefahrten</title>
 
     <script type="text/javascript" src="javascript/jquery-1.11.1.js"></script>
-    <script type="text/javascript" src="javascript/jquery.validate.js"></script>
-    <script type="text/javascript" src="javascript/additional-methods.js"></script>
     <script type="text/javascript" src="javascript/index.js"></script>
 
     <link rel="stylesheet"
@@ -43,7 +41,7 @@
 <div id="mitte">
     <p id="anmeldungtext">Hier könnt ihr euch für eine Messe eurer Wahl anmelden:</p>
 
-    <form id="formular" action = "http://martinakraus.net/hsmannheim.php">
+    <form id="formular" action = "http://martinakraus.net/hsmannheim.php" onsubmit="return pruefen(this)">
         <table id="formulartabelle">
             <tr>
                 <td><label for="vorname" id="vornamelabel">Vorname</label></td>
