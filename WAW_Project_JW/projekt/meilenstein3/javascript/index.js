@@ -1,10 +1,11 @@
 /**
  * Diese Funktion ueberprueft die einzelnen Felder des Formulars
- * @param form das formular welches ueberprueft werden soll
+ * @param formularId das formular welches ueberprueft werden soll
  * @returns {boolean}
  */
 
-function pruefen(form){
+function pruefen(formularId){
+    var form = document.getElementById(formularId);
     var fehlertext = "Einige Eingaben sind fehlerhaft. Bitte überprüfen Sie ihre Eingaben.";
     var korrekt = true;
     //pruefen auf vollstaendigkeit
@@ -18,7 +19,6 @@ function pruefen(form){
         }
     }
 
-    //einzelne felder auf richtige angaben pruefen
     var name = form.elements['name'];
     if (!istBuchstabe(name.value)) {
         korrekt = false;
@@ -28,7 +28,7 @@ function pruefen(form){
     }
 
     var vorname = form.elements['vorname'];
-    if (!istBuchstabe(voname.value)) {
+    if (!istBuchstabe(vorname.value)) {
         korrekt = false;
         vorname.classList.add("fehler");
     }else{
@@ -59,7 +59,6 @@ function pruefen(form){
         handy.classList.remove("fehler");
     }
 
-    //wenn nicht alle felder true zurueckliefern wird ein fehlertext ausgegeben
     if(korrekt){
         return true;
     }else {
