@@ -5,90 +5,104 @@
  */
 
 function pruefen(form){
-
+    var fehlertext = "Einige Eingaben sind fehlerhaft. Bitte überprüfen Sie ihre Eingaben.";
+    var korrekt = true;
     //pruefen auf vollstaendigkeit
-    var fehlertext = "Einige Eingaben sind fehlerhaft! Bitte überprüfen Sie Ihre Eingaben.";
-    var fehler = false;
-    if(form.elements['vorname'].value == ''){
-        fehler = true;
-    }
-    if(form.elements['name'].value == ''){
-        fehler = true;
-    }
-    if(form.elements['matrikelnr'].value == ''){
-        fehler = true;
-    }
-    if(form.elements['email'].value == ''){
-        fehler = true;
-    }
-    if(form.elements['handy'].value == ''){
-        fehler = true;
-    }
-    // Pruefung auf Zahlen von matrikelnummer und der handynummer
-    if(!istZahl(form.elements['matrikelnr'].value)){
-        fehler = true;
+    for (var i = 0; i < form.elements.length; i++){
+        var elem = form.elements[i];
+        if(elem.value == ''){
+            korrekt = false;
+            elem.classList.add("fehler");
+        }else{
+            elem.classList.remove("fehler");
+        }
     }
 
-    if(!istZahl(form.elements['handy'].value)){
-        fehler = true;
+    //einzelne felder auf richtige angaben pruefen
+    var name = form.elements['name'];
+    if (!istBuchstabe(name.value)) {
+        korrekt = false;
+        name.classList.add("fehler");
+    }else{
+        name.classList.remove("fehler");
     }
 
-    //Pruefung auf Buchstaben von Namen und Vornamen
-
-    if(istZahl(form.elements['vorname'].value)){
-        fehler = true;
+    var vorname = form.elements['vorname'];
+    if (!istBuchstabe(voname.value)) {
+        korrekt = false;
+        vorname.classList.add("fehler");
+    }else{
+        vorname.classList.remove("fehler");
     }
 
-    if(istZahl(form.elements['name'].value)){
-        fehler = true;
+    var matrikelnr = form.elements['matrikelnr'];
+    if (!istZahl(matrikelnr.value)) {
+        korrekt = false;
+        matrikelnr.classList.add("fehler");
+    }else{
+        matrikelnr.classList.remove("fehler");
     }
 
-    //pruefung der email
-    if(!istEmail(form.elements['matrikelnr'].value)){
-        fehler = true;
+    var email = form.elements['email'];
+    if(!istEmail(email.value)){
+        korrekt = false;
+        email.classList.add("fehler");
+    }else{
+        email.classList.remove("fehler");
     }
 
-    //wenn ein feld falsch true zurueckliefert wurde wird ein fehlertext ausgegeben
-    if(fehler){
+    var handy = form.elements['handy'];
+    if (!istHandy(handy.value)) {
+        korrekt = false;
+        handy.classList.add("fehler");
+    }else{
+        handy.classList.remove("fehler");
+    }
+
+    //wenn nicht alle felder true zurueckliefern wird ein fehlertext ausgegeben
+    if(korrekt){
+        return true;
+    }else {
         alert(fehlertext);
         return false;
-    }else {
-        return true;
     }
 }
 
 /**
  * Diese Funktion gibt true zurueck wenn die eingabe nur aus zahlen besteht
  * und false wenn nicht.
- * @param eingabe
+ * @param zahlen
  * @returns {boolean}
  */
-function istZahl(eingabe) {
-    var nummer = "" + eingabe;
-    var zahlen = "0123456789";
-    for (var i = 0; i < nummer.length; i++){
-        if (zahlen.indexOf(nummer.charAt(i)) == -1){
-            return false;
-        }
-    }
-    return true;
+function istZahl(zahlen) {
+    var ergebnis = zahlen.match("[0-9]{1,}");
+    return ergebnis == zahlen;
+}
+/**
+ * prueft ob es sich bei der uebergebenen nummer umm eine handynummer handelt
+ * @param nummer
+ * @returns {boolean}
+ */
+function istHandy(nummer){
+    var ergebnis = nummer.match("[0]{1}[1-9]{1,}[1-9]{1,}");
+    return ergebnis == nummer;
+}
+/**
+ * Diese Funkion prueft ob die uebergebene zeichenkette NUR aus buchstaben besteht
+ * @param buchstaben die uebergebene zeichenkette
+ * @returns {boolean}
+ */
+function istBuchstabe(buchstaben){
+    var ergebnis = buchstaben.match("[A-Za-z]{1,}");
+    return ergebnis == buchstaben;
 }
 /**
  * Diese Funktion prueft ob es sich bei dem uebergebenen wert um eine korrekte email handelt
- * @param mail
+ * @param email
  */
-function istEmail(mail){
-    var at = mail.indexOf('@');
-    if (at < 1){
-        return false;
-    }else{
-        var punkt = mail.substring(at).indexOf('.');
-        if (punkt < 2){
-            return false;
-        }else {
-            return true;
-        }
-    }
+function istEmail(email){
+    var ergebnis = email.match("[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Z,a-z]{2,5}");
+    return ergebnis == email;
 }
 
 

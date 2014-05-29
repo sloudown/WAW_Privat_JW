@@ -33,7 +33,6 @@ function klick(id) {
     for (var i = 0; i < klasse.length; i++){
         klasse[i].classList.remove("geklickt");
     }
-    document.getElementById(id).classList.add("geklickt");
 }
 
 /**

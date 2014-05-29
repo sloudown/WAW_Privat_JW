@@ -23,3 +23,7 @@ input {
 #abschicken {
     width: 100%;
 }
+
+.fehler {
+    border: 1px solid red;
+}
