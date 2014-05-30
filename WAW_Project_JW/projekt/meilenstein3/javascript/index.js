@@ -1,70 +1,86 @@
+
 /**
  * Diese Funktion ueberprueft die einzelnen Felder des Formulars
  * @param formularId das formular welches ueberprueft werden soll
  * @returns {boolean}
  */
-
 function pruefen(formularId){
+
+<<<<<<< HEAD
+function pruefen(formularId){
+=======
+>>>>>>> FETCH_HEAD
     var form = document.getElementById(formularId);
     var fehlertext = "Einige Eingaben sind fehlerhaft. Bitte überprüfen Sie ihre Eingaben.";
-    var korrekt = true;
-    //pruefen auf vollstaendigkeit
-    for (var i = 0; i < form.elements.length; i++){
+    var korrekt = false;
+    var fehlerspeicher = [];
+
+    /**
+     //pruefen auf vollstaendigkeit
+     for (var i = 0; i < form.elements.length; i++) {
         var elem = form.elements[i];
-        if(elem.value == ''){
-            korrekt = false;
-            elem.classList.add("fehler");
-        }else{
-            elem.classList.remove("fehler");
+        if (elem.value == '') {
+            fehlerspeicher.push(elem);
         }
     }
+     */
 
+<<<<<<< HEAD
+=======
+    //felder auf richtige angaben pruefen
+>>>>>>> FETCH_HEAD
     var name = form.elements['name'];
     if (!istBuchstabe(name.value)) {
-        korrekt = false;
-        name.classList.add("fehler");
-    }else{
-        name.classList.remove("fehler");
+        fehlerspeicher.push(name);
     }
 
     var vorname = form.elements['vorname'];
     if (!istBuchstabe(vorname.value)) {
+<<<<<<< HEAD
         korrekt = false;
         vorname.classList.add("fehler");
     }else{
         vorname.classList.remove("fehler");
+=======
+        fehlerspeicher.push(vorname);
+>>>>>>> FETCH_HEAD
     }
 
     var matrikelnr = form.elements['matrikelnr'];
     if (!istZahl(matrikelnr.value)) {
-        korrekt = false;
-        matrikelnr.classList.add("fehler");
-    }else{
-        matrikelnr.classList.remove("fehler");
+        fehlerspeicher.push(matrikelnr);
     }
 
+
     var email = form.elements['email'];
-    if(!istEmail(email.value)){
-        korrekt = false;
-        email.classList.add("fehler");
-    }else{
-        email.classList.remove("fehler");
+    if (!istEmail(email.value)) {
+        fehlerspeicher.push(email);
     }
 
     var handy = form.elements['handy'];
     if (!istHandy(handy.value)) {
-        korrekt = false;
-        handy.classList.add("fehler");
-    }else{
-        handy.classList.remove("fehler");
+        fehlerspeicher.push(handy);
     }
 
+<<<<<<< HEAD
     if(korrekt){
         return true;
     }else {
+=======
+    //focus auf den ersten fehler setzen und fehlertext ausgeben
+    if (fehlerspeicher.length == 0) {
+        korrekt = true;
+    }else{
+        //alle fehler rot umranden
+        for (var j in fehlerspeicher) {
+            fehlerspeicher[j].addClass('fehler');
+        }
+        fehlerspeicher[0].focus();
+>>>>>>> FETCH_HEAD
         alert(fehlertext);
-        return false;
     }
+
+    return korrekt;
 }
 
 /**
