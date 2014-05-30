@@ -1,4 +1,3 @@
-
 /**
  * Diese Funktion ueberprueft die einzelnen Felder des Formulars
  * @param formularId das formular welches ueberprueft werden soll
@@ -6,29 +5,15 @@
  */
 function pruefen(formularId){
 
-<<<<<<< HEAD
-function pruefen(formularId){
-=======
->>>>>>> FETCH_HEAD
     var form = document.getElementById(formularId);
     var fehlertext = "Einige Eingaben sind fehlerhaft. Bitte überprüfen Sie ihre Eingaben.";
     var korrekt = false;
     var fehlerspeicher = [];
 
-    /**
-     //pruefen auf vollstaendigkeit
-     for (var i = 0; i < form.elements.length; i++) {
-        var elem = form.elements[i];
-        if (elem.value == '') {
-            fehlerspeicher.push(elem);
-        }
-    }
-     */
+    //fehlerspeicher leeren
+    fehlerspeicher.length = 0;
 
-<<<<<<< HEAD
-=======
     //felder auf richtige angaben pruefen
->>>>>>> FETCH_HEAD
     var name = form.elements['name'];
     if (!istBuchstabe(name.value)) {
         fehlerspeicher.push(name);
@@ -36,14 +21,7 @@ function pruefen(formularId){
 
     var vorname = form.elements['vorname'];
     if (!istBuchstabe(vorname.value)) {
-<<<<<<< HEAD
-        korrekt = false;
-        vorname.classList.add("fehler");
-    }else{
-        vorname.classList.remove("fehler");
-=======
         fehlerspeicher.push(vorname);
->>>>>>> FETCH_HEAD
     }
 
     var matrikelnr = form.elements['matrikelnr'];
@@ -62,22 +40,23 @@ function pruefen(formularId){
         fehlerspeicher.push(handy);
     }
 
-<<<<<<< HEAD
-    if(korrekt){
-        return true;
-    }else {
-=======
+    //alle roten fehler entfernen
+    $.each($("input"), function () {
+        $(this).removeClass('fehler');
+
+    });
+
     //focus auf den ersten fehler setzen und fehlertext ausgeben
-    if (fehlerspeicher.length == 0) {
-        korrekt = true;
-    }else{
+    if (fehlerspeicher.length != 0) {
+        alert(fehlerspeicher.length);
         //alle fehler rot umranden
-        for (var j in fehlerspeicher) {
-            fehlerspeicher[j].addClass('fehler');
+        for (i in fehlerspeicher) {
+            fehlerspeicher[i].classList.add('fehler');
         }
         fehlerspeicher[0].focus();
->>>>>>> FETCH_HEAD
         alert(fehlertext);
+    }else{
+        korrekt = true;
     }
 
     return korrekt;
@@ -116,7 +95,7 @@ function istBuchstabe(buchstaben){
  * @param email
  */
 function istEmail(email){
-    var ergebnis = email.match("[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Z,a-z]{2,5}");
+    var ergebnis = email.match("[a-zA-Z0-9]+[a-zA-Z0-9._-]*@[a-zA-Z0-9]+\.[A-Z,a-z]{2,5}");
     return ergebnis == email;
 }
 
