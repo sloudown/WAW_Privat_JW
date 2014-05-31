@@ -40,7 +40,7 @@ function pruefen(formularId){
         fehlerspeicher.push(handy);
     }
 
-    //alle roten fehler entfernen
+    //alle roten umrandungen entfernen
     $.each($("input"), function () {
         $(this).removeClass('fehler');
 
@@ -48,7 +48,6 @@ function pruefen(formularId){
 
     //focus auf den ersten fehler setzen und fehlertext ausgeben
     if (fehlerspeicher.length != 0) {
-        alert(fehlerspeicher.length);
         //alle fehler rot umranden
         for (i in fehlerspeicher) {
             fehlerspeicher[i].classList.add('fehler');
@@ -63,7 +62,7 @@ function pruefen(formularId){
 }
 
 /**
- * Diese Funktion gibt true zurueck wenn die eingabe nur aus zahlen besteht
+ * Diese Funktion gibt true zurueck wenn die uebergebene zeichenkette nur aus zahlen besteht
  * und false wenn nicht.
  * @param zahlen
  * @returns {boolean}
@@ -73,7 +72,7 @@ function istZahl(zahlen) {
     return ergebnis == zahlen;
 }
 /**
- * prueft ob es sich bei der uebergebenen nummer umm eine handynummer handelt
+ * prueft ob es sich bei der uebergebenen nummer umm eine gueltige handynummer handelt
  * @param nummer
  * @returns {boolean}
  */
@@ -91,7 +90,7 @@ function istBuchstabe(buchstaben){
     return ergebnis == buchstaben;
 }
 /**
- * Diese Funktion prueft ob es sich bei dem uebergebenen wert um eine korrekte email handelt
+ * Diese Funktion prueft ob es sich bei dem uebergebenen wert um eine gueltige email handelt
  * @param email
  */
 function istEmail(email){
